@@ -1897,7 +1897,7 @@ header .logo a {
  * ------------------------------------------------------------------
  */
 .popup-modal {
-	max-width: 550px;
+	max-width: 700px;
 	/* max-width: 900px; */
 	background: #FFFFFF;
 	position: relative;
@@ -1950,16 +1950,17 @@ header .logo a {
 	display: block;
 	text-align: center;
 	float: left;
-	width: 50%;
+	/* width: 50%; */
+	width: 100%;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.popup-modal .link-box a:first-child {
+/* .popup-modal .link-box a:first-child {
 	border-right: 1px solid rgba(200, 200, 200, 0.1);
-}
+} */
 .popup-modal .link-box a:hover {
 	background: #81d8d0;
 	border: none;
